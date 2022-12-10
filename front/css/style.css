@@ -1,0 +1,651 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope";
+  background-color: #0D0D13;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1290px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.pb90 {
+  padding-bottom: 90px;
+}
+
+.pb60 {
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 94px;
+  line-height: 128px;
+  display: block;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 30px rgba(13, 13, 19, 0.6);
+}
+
+h1 br {
+  display: none;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.blue_button_big {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 83%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #0057B8;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 19px 0px 22px;
+  max-width: 260px;
+  width: 100%;
+}
+
+.blue_button_small {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 83%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #0057B8;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 14px 25px;
+}
+.blue_button_small img {
+  margin-left: 60px;
+}
+
+header {
+  background-image: url(../img/bcg_header_desc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img/black_grad.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+}
+
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.nav_menu {
+  display: inline-flex;
+  padding: 0;
+}
+.nav_menu .nav_menu_page {
+  list-style: none;
+  margin-right: 20px;
+}
+.nav_menu .nav_menu_page:last-of-type {
+  margin-right: 0;
+}
+.nav_menu .nav_menu_page a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  transition: 0.2s;
+}
+.nav_menu .nav_menu_page:hover a {
+  color: #fff;
+}
+
+.logo_header {
+  width: 170px;
+  height: 170px;
+  margin-top: -30px;
+}
+.logo_header img {
+  width: 100%;
+}
+
+.main_scrn {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.main_scrn h1 {
+  position: relative;
+  z-index: 1;
+}
+.main_scrn h1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 227px;
+  background-image: url(../img/bcg_h1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+}
+.main_scrn p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  width: 80%;
+  margin: 40px auto 30px;
+}
+
+.but_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.but_wrap span {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 10px;
+}
+
+.flex_but {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.flex_but .blue_button_big {
+  margin-right: 20px;
+}
+.flex_but .blue_button_big:last-of-type {
+  margin-right: 0;
+}
+
+.s_infr_damaged {
+  margin-bottom: 30px;
+}
+
+.scrn_flex {
+  display: flex;
+  align-items: center;
+}
+.scrn_flex .info_row {
+  width: calc(50% - 43px);
+}
+.scrn_flex .info_row:nth-child(odd) {
+  margin-right: 86px;
+}
+.scrn_flex .info_row p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.scrn_flex .info_row p:last-of-type {
+  margin-bottom: 0;
+}
+.scrn_flex .info_row .img_main {
+  width: 100%;
+}
+
+.heading_infr_damaged {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.heading_infr_damaged.mobile {
+  display: none;
+}
+
+.img_kyiv {
+  position: relative;
+}
+.img_kyiv:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/after_kyiv.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.kyiv_damaged {
+  position: relative;
+}
+.kyiv_damaged .percent_damaged {
+  position: absolute;
+  bottom: 0;
+}
+
+.percent_damaged .percent {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.percent_damaged .percent img {
+  width: 100%;
+}
+.percent_damaged .percent:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/after_percent.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  z-index: -1;
+}
+.percent_damaged span {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 120px;
+}
+
+.screen2_index {
+  padding-bottom: 20px;
+}
+
+.how_help_wrap {
+  display: flex;
+  border: 1px solid #313136;
+}
+.how_help_wrap .how_help_row {
+  padding: 15px 22px;
+  width: 50%;
+}
+.how_help_wrap .how_help_row h2 {
+  margin-bottom: 0;
+}
+.how_help_wrap .how_help_row:nth-child(1) {
+  border-right: 1px solid #313136;
+}
+.how_help_wrap .how_help_row:nth-child(1) .how_help_row_content {
+  background-image: url(../img/img_left_row.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.how_help_wrap .how_help_row:nth-child(2n) .how_help_row_content {
+  background-image: url(../img/img_right_help.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.s_how_help h2 {
+  margin-bottom: 30px;
+}
+
+.how_help_row_content {
+  position: relative;
+  z-index: 1;
+  padding: 32px 22px 55px;
+}
+.how_help_row_content .title_help_row {
+  margin-bottom: 20px;
+}
+.how_help_row_content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../img/after_help_row.png);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.title_help_row {
+  display: flex;
+  align-items: flex-end;
+}
+.title_help_row .sub_info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.s_donate_equipment h2 {
+  margin-bottom: 15px;
+}
+.s_donate_equipment .scrn_flex.mt_30 {
+  margin-top: -30px;
+}
+.s_donate_equipment .info_row .img_height400 {
+  margin-bottom: 30px;
+}
+.s_donate_equipment .text_center {
+  padding-left: 100px;
+}
+
+.info_row .row_about_electricvolt {
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  padding: 15px 24px;
+}
+.info_row .row_about_electricvolt:last-of-type {
+  margin-bottom: 30px;
+}
+.info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.info_row .row_about_electricvolt .kv {
+  position: relative;
+  margin-right: 80px;
+  z-index: 1;
+}
+.info_row .row_about_electricvolt .kv:after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 124px;
+  height: 100%;
+  top: 0;
+  left: 60%;
+  background-image: url(../img/lightning.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.img_with_border {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  z-index: 2;
+  position: relative;
+}
+.img_with_border img {
+  border: 10px solid #0D0D13;
+}
+
+.img_height200 {
+  height: 13vw;
+  overflow: hidden;
+}
+.img_height200 img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.img_height300 {
+  height: 19vw;
+  overflow: hidden;
+}
+.img_height300 img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.img_height400 {
+  height: 25vw;
+  overflow: hidden;
+}
+.img_height400 img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.img_height400.mobile {
+  display: none;
+}
+
+.s_donate_funds {
+  border: 1px solid #313136;
+  margin-bottom: 60px;
+}
+.s_donate_funds .top_content {
+  border-bottom: 1px solid #313136;
+  background-image: url(../img/bcg_donate_funds_s.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.s_donate_funds .top_content .main_scrn {
+  margin-bottom: 0;
+  padding: 67px 0;
+}
+.s_donate_funds .top_content .main_scrn .title_help_row {
+  justify-content: center;
+}
+.s_donate_funds .top_content .main_scrn .title_help_row .sub_info {
+  margin-left: 15px;
+}
+.s_donate_funds .top_content:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/after_bcg_d_funds.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.table_donate_funds {
+  display: flex;
+}
+.table_donate_funds .row_donate_funds {
+  width: 50%;
+  padding: 56px 78px 45px 52px;
+}
+.table_donate_funds .row_donate_funds:nth-child(1) {
+  border-right: 1px solid #313136;
+}
+.table_donate_funds .row_donate_funds .info_don_funds {
+  margin-bottom: 37px;
+}
+.table_donate_funds .row_donate_funds .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.table_donate_funds .row_donate_funds p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.table_donate_funds .row_donate_funds p:last-of-type {
+  margin-bottom: 0;
+}
+
+.contact_donate_funds h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.contact_donate_funds span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.contact_donate_funds .link_contact {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  color: #1E83F2;
+  display: block;
+}
+.contact_donate_funds .tel {
+  display: flex;
+  align-items: center;
+}
+
+.s_ukr_world_congress .top_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.s_ukr_world_congress .top_div .visit_site {
+  text-align: end;
+}
+.s_ukr_world_congress .main_img_ukr_congress {
+  width: 100%;
+  height: 18vw;
+  margin-bottom: 50px;
+}
+.s_ukr_world_congress .part_flex {
+  display: flex;
+}
+.s_ukr_world_congress .part_flex .w50 {
+  width: calc(50% - 45px);
+}
+.s_ukr_world_congress .part_flex .w50:nth-child(odd) {
+  margin-right: 90px;
+}
+.s_ukr_world_congress .part_flex .w50 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.s_ukr_world_congress .part_flex .w50 p:last-of-type {
+  margin-bottom: 0;
+}
+
+.visit_site span {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.ukr_kongress_name {
+  display: flex;
+  align-items: center;
+}
+.ukr_kongress_name h2.mobile {
+  display: none;
+}
+.ukr_kongress_name .logo_ukr_kongress {
+  width: 160px;
+  height: 160px;
+  margin-right: 40px;
+}
+
+.img_mobile_s_donate_funds {
+  display: none;
+}
+
+.visit_site.mobile {
+  display: none;
+}
+
+.title_s_ukr_congr {
+  display: none;
+}
+
+footer {
+  border-top: 1px solid #313136;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,356 @@
+@media screen and (max-width: 1250px) {
+  .main_scrn {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
+    font-size: 18px;
+  }
+  .table_donate_funds .row_donate_funds {
+    padding: 45px 58px 35px 32px;
+  }
+  .ukr_kongress_name .logo_ukr_kongress {
+    width: 130px;
+    height: 130px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .pb90 {
+    padding-bottom: 70px;
+  }
+  .pb60 {
+    padding-bottom: 40px;
+  }
+  .s_donate_funds {
+    margin-bottom: 40px;
+  }
+  .how_help_row_content {
+    padding: 22px 11px 35px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .blue_button_big {
+    font-size: 16px;
+    padding: 16px 0px 19px;
+  }
+  .main_scrn {
+    width: 90%;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .scrn_flex .info_row {
+    width: calc(50% - 30px);
+  }
+  .scrn_flex .info_row:nth-child(2n+1) {
+    margin-right: 60px;
+  }
+  .heading_infr_damaged {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .percent_damaged .percent {
+    width: 70%;
+  }
+  .percent_damaged span {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 60px;
+  }
+  .s_how_help h2 {
+    margin-bottom: 20px;
+  }
+  .info_row .row_about_electricvolt .kv {
+    margin-right: 60px;
+  }
+  .info_row .row_about_electricvolt {
+    padding: 13px;
+  }
+  .info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
+    font-size: 13px;
+  }
+  .table_donate_funds .row_donate_funds {
+    padding: 20px;
+  }
+  .table_donate_funds .row_donate_funds p {
+    font-size: 14px;
+  }
+  .s_ukr_world_congress .part_flex .w50:nth-child(2n+1) {
+    margin-right: 60px;
+  }
+  .s_ukr_world_congress .part_flex .w50 {
+    width: calc(50% - 30px);
+  }
+  .s_ukr_world_congress .part_flex .w50 p {
+    font-size: 14px;
+  }
+  .s_ukr_world_congress .main_img_ukr_congress {
+    margin-bottom: 30px;
+  }
+  .ukr_kongress_name .logo_ukr_kongress {
+    margin-right: 15px;
+  }
+  .blue_button_small img {
+    margin-left: 45px;
+  }
+  .nav_menu .nav_menu_page {
+    margin-right: 15px;
+  }
+  .nav_menu .nav_menu_page a {
+    font-size: 13px;
+  }
+  .logo_header {
+    width: 125px;
+    height: 125px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main_scrn {
+    width: 100%;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  h1 br {
+    display: block;
+  }
+  .main_scrn h1::after {
+    top: -55%;
+    width: calc(100% + 30px);
+    background-size: cover;
+    margin-left: -15px;
+  }
+  .main_scrn p {
+    font-size: 14px;
+    line-height: 25px;
+    width: 100%;
+    margin: 13px 0 30px;
+  }
+  .flex_but {
+    flex-direction: column;
+  }
+  .flex_but .blue_button_big {
+    max-width: unset;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .but_wrap span {
+    margin-top: 0;
+  }
+  .s_infr_damaged {
+    flex-direction: column-reverse;
+  }
+  .scrn_flex .info_row {
+    width: 100%;
+  }
+  .scrn_flex .info_row:nth-child(2n+1) {
+    margin-right: 0;
+  }
+  .kyiv_damaged .percent_damaged {
+    width: 100%;
+  }
+  .kyiv_damaged .percent_damaged .percent {
+    width: 100%;
+  }
+  .kyiv_damaged {
+    margin-bottom: 40px;
+  }
+  .heading_infr_damaged {
+    display: none;
+  }
+  .heading_infr_damaged.mobile {
+    display: block;
+  }
+  .how_help_wrap {
+    flex-direction: column;
+  }
+  .how_help_wrap .how_help_row:nth-child(1) {
+    border-right: unset;
+    border-bottom: 1px solid #313136;
+  }
+  .how_help_wrap .how_help_row {
+    padding: 0;
+    width: 100%;
+  }
+  .how_help_row_content {
+    padding: 30px;
+  }
+  .how_help_row_content .title_help_row {
+    margin-bottom: 50px;
+  }
+  .pb90 {
+    padding-bottom: 40px;
+  }
+  .img_with_border {
+    display: none;
+  }
+  .s_donate_equipment .block1_s_donate_equipment {
+    flex-direction: column;
+  }
+  .s_donate_equipment .scrn_flex.mt_30 {
+    margin-top: 0;
+    flex-direction: column-reverse;
+  }
+  .img_height300 {
+    height: 33vw;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .img_height400 {
+    display: none;
+  }
+  .img_height400.mobile {
+    display: block;
+    height: 55vw;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
+    font-size: 16px;
+  }
+  .img_height300.mobile {
+    display: none;
+  }
+  .img_height200 {
+    height: 35vw;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .s_donate_equipment .text_center {
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .info_row .row_about_electricvolt {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+  }
+  .title_help_row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .s_donate_funds .top_content .main_scrn .title_help_row {
+    align-items: center;
+  }
+  .s_donate_funds .top_content .main_scrn .title_help_row .sub_info {
+    margin-left: 0;
+  }
+  .s_donate_funds {
+    border: unset;
+  }
+  .s_donate_funds .top_content {
+    border-bottom: unset;
+    background-image: none !important;
+  }
+  .s_donate_funds .top_content:after {
+    background-image: none;
+  }
+  .table_donate_funds {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+  }
+  .table_donate_funds .row_donate_funds {
+    width: 100%;
+    padding: 0;
+  }
+  .table_donate_funds .row_donate_funds:nth-child(1) {
+    border-right: unset;
+    border-top: 1px solid #313136;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  .s_ukr_world_congress .top_div {
+    display: block;
+  }
+  .s_ukr_world_congress {
+    display: flex;
+    flex-direction: column;
+  }
+  .s_ukr_world_congress .top_div {
+    order: 2;
+  }
+  .s_ukr_world_congress .top_div .visit_site {
+    display: none;
+  }
+  .s_ukr_world_congress .main_img_ukr_congress {
+    order: 1;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    height: 30vw;
+    margin-top: 20px;
+  }
+  .s_ukr_world_congress .part_flex {
+    display: block;
+    order: 3;
+  }
+  .s_ukr_world_congress .part_flex .w50 {
+    width: 100%;
+  }
+  .ukr_kongress_name h2 {
+    display: none;
+  }
+  .ukr_kongress_name h2.mobile {
+    display: block;
+  }
+  .visit_site.mobile {
+    display: block;
+    margin: 20px 0;
+  }
+  .visit_site.mobile span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .img_mobile_s_donate_funds {
+    display: block;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .img_mobile_s_donate_funds:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/after_help_row.png);
+    background-repeat: no-repeat;
+  }
+  .img_mobile_s_donate_funds img {
+    width: 100%;
+  }
+  .s_donate_funds .top_content .main_scrn {
+    margin-bottom: 0;
+    padding: 0 0 67px;
+    margin-top: -50px;
+  }
+  .title_s_ukr_congr {
+    display: block;
+  }
+  .s_donate_equipment .info_row {
+    margin-bottom: 30px;
+  }
+  .display_none_info {
+    display: none;
+  }
+  footer {
+    padding: 30px 15px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
+    font-size: 14px;
+  }
+}
