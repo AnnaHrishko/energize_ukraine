@@ -29,6 +29,10 @@ body {
   padding-bottom: 60px;
 }
 
+.p_top30 {
+  padding-top: 30px;
+}
+
 h1 {
   font-weight: 600;
   font-size: 94px;
@@ -433,8 +437,12 @@ header:after {
   margin-top: -30px;
   z-index: 2;
   position: relative;
+  width: 250px;
+  height: 180px;
+  margin: 0 auto;
 }
 .img_with_border img {
+  width: 100%;
   border: 10px solid #0D0D13;
 }
 
@@ -648,4 +656,11 @@ footer {
   line-height: 30px;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.gumb {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
 }

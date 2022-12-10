@@ -348,6 +348,48 @@
     font-size: 15px;
     line-height: 25px;
   }
+  .gumb {
+    display: block;
+  }
+  .nav_menu {
+    display: none;
+  }
+  .header_wrap {
+    align-items: flex-start;
+  }
+  .header_wrap .logo_header {
+    margin: -30px auto 0;
+  }
+  .header_wrap.open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1E1E1E;
+    height: 100%;
+    z-index: 10;
+  }
+  .header_wrap.open .nav_menu.mobile {
+    display: block;
+    position: absolute;
+    top: 10%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    left: -15px;
+  }
+  .header_wrap.open .nav_menu.mobile .nav_menu_page {
+    margin-right: 0;
+  }
+  .header_wrap.open .nav_menu.mobile .nav_menu_page a {
+    font-size: 18px;
+    line-height: 45px;
+  }
+  .header_wrap.open .nav_menu.mobile.second_part {
+    top: 20%;
+    margin-top: 46px;
+  }
 }
 @media screen and (max-width: 435px) {
   .info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
