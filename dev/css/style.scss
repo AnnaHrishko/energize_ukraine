@@ -692,3 +692,22 @@ footer{
 }
 
 
+.info_row.blue_gradient{
+	position: relative;
+	z-index: 1;
+	&:after{
+		content: "";
+		display: block;
+		position: absolute;
+		top: 20%;
+		left: -15%;
+		border-radius: 50%;
+		background: #0038A8;
+		filter: blur(170px);
+		width: 221px;
+		height: 221px;
+		z-index: -1;
+	}
+}
+
+

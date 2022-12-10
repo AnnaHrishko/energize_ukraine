@@ -466,7 +466,6 @@ footer {
 	.nav_menu.mobile{
 		display: block;
 		position: absolute;
-		top: 10%;
 		flex-direction: column;
 		text-align: center;
 		align-items: center;
@@ -483,6 +482,9 @@ footer {
 	.nav_menu.mobile.second_part{
 		top: 20%;
 		margin-top: 46px;
+	}
+	.nav_menu.mobile.first_part{
+		top: 10%;
 	}
 }
 }
