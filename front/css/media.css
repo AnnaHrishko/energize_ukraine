@@ -426,3 +426,13 @@
     font-size: 14px;
   }
 }
+@media screen and (max-width: 380px) {
+  .ukr_kongress_name .logo_ukr_kongress {
+    width: 90px;
+    height: 90px;
+  }
+  .ukr_kongress_name h2.mobile {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
