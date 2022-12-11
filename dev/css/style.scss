@@ -121,7 +121,23 @@ header{
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
+	position: relative;
 }
+
+.first_part_nav{
+	width: 40%;
+}
+
+.second_part_nav{
+	width: 40%;
+	text-align: end;
+}
+
+.logo_header{
+	width: 20%;
+}
+
+
 
 .nav_menu{
 	display: inline-flex;
