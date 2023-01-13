@@ -29,6 +29,9 @@
   .how_help_row_content {
     padding: 22px 11px 35px;
   }
+  .nav_menu .nav_menu_page {
+    margin-right: 14px;
+  }
 }
 @media screen and (max-width: 1170px) {
   .blue_button_big {
@@ -96,10 +99,10 @@
     margin-left: 45px;
   }
   .nav_menu .nav_menu_page {
-    margin-right: 10px;
+    margin-right: 8px;
   }
   .nav_menu .nav_menu_page a {
-    font-size: 12px;
+    font-size: 11px;
   }
   .logo_header {
     width: 125px;
@@ -419,6 +422,24 @@
   }
   .header_wrap.open .second_part_nav .nav_menu.mobile {
     margin-top: 80px;
+  }
+  .you_can_help_ukr h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .sub_btn {
+    padding: 12px 20px 13px;
+    font-size: 16px;
+  }
+  .sub_btn img {
+    width: 22px;
+    height: 22px;
+  }
+  .you_can_help_ukr::after {
+    top: -90px;
+  }
+  .you_can_help_ukr {
+    padding-bottom: 60px;
   }
 }
 @media screen and (max-width: 435px) {
