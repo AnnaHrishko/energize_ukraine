@@ -730,13 +730,27 @@ footer {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+.you_can_help_ukr .sub_btn {
+  position: relative;
+  width: 260px;
+  height: 58px;
+}
+.you_can_help_ukr .sub_btn span {
+  position: absolute;
+  top: 35%;
+  left: 20px;
+}
+.you_can_help_ukr .sub_btn img {
+  position: absolute;
+  top: 24%;
+  right: 20px;
+}
 
 .sub_btn {
   border: 1px solid #0057B8;
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
-  padding: 15px 20px 20px;
   text-decoration: none;
   font-weight: 600;
   font-size: 20px;

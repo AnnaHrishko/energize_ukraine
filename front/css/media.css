@@ -441,6 +441,12 @@
   .you_can_help_ukr {
     padding-bottom: 60px;
   }
+  .you_can_help_ukr .sub_btn {
+    height: 48px;
+  }
+  .you_can_help_ukr .sub_btn img {
+    top: 21%;
+  }
 }
 @media screen and (max-width: 435px) {
   .info_row .row_about_electricvolt .descr_kv, .info_row .row_about_electricvolt .kv {
