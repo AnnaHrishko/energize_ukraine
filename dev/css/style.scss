@@ -795,4 +795,15 @@ footer{
 	}
 }
 
+.flex_btn_center{
+	display: flex;
+	justify-content: center;
+	.sub_btn{
+		margin-right: 15px;
+		&:last-of-type{
+			margin-right: 0;
+		}
+	}
+}
+
 

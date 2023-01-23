@@ -764,3 +764,14 @@ footer {
   height: 23px;
   margin-left: 85px;
 }
+
+.flex_btn_center {
+  display: flex;
+  justify-content: center;
+}
+.flex_btn_center .sub_btn {
+  margin-right: 15px;
+}
+.flex_btn_center .sub_btn:last-of-type {
+  margin-right: 0;
+}

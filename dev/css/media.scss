@@ -147,6 +147,15 @@ h1 {
 
 @media screen and (max-width: 768px){
 
+.flex_btn_center {
+  flex-direction: column;
+  align-items: center;
+  .sub_btn{
+  	margin-right: 0;
+  	margin-bottom: 10px;
+  }
+}
+
 .logo_header {
   width: 95px;
   height: 95px;
