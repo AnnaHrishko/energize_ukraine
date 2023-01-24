@@ -1,1 +1,1 @@
-$(".gumb").click(function(){$(".header_wrap").toggleClass("open")});
+$(".gumb").click(function(){$(".header_wrap").toggleClass("open")}),$("body").on("click","#toup",function(t){t.preventDefault();var o=$(this).attr("href"),e=$(o).offset().top;$("body,html").animate({scrollTop:e},1e3)}),$("body").on("click","#tout",function(t){t.preventDefault();var o=$(this).attr("href"),e=$(o).offset().top;$("body,html").animate({scrollTop:e},1e3)});
