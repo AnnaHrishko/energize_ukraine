@@ -775,3 +775,100 @@ footer {
 .flex_btn_center .sub_btn:last-of-type {
   margin-right: 0;
 }
+
+.sec_list_equipm_need {
+  background-image: url(../img/bcg_list_equipment.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 54px 0 33px;
+  margin-bottom: 37px;
+}
+.sec_list_equipm_need .img_list_equipm_need {
+  position: relative;
+  display: none;
+}
+.sec_list_equipm_need .img_list_equipm_need:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/after_list_equip.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sec_list_equipm_need .img_list_equipm_need img {
+  width: 100%;
+}
+.sec_list_equipm_need .info_row h2 {
+  margin-bottom: 20px;
+}
+.sec_list_equipm_need .info_row p {
+  width: 50%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.sec_list_equipm_need .info_row.blue_gradient::after {
+  left: -7%;
+}
+.sec_list_equipm_need .sub_btn {
+  padding: 15px 20px 20px;
+  position: relative;
+  width: 260px;
+}
+.sec_list_equipm_need .sub_btn img {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+  margin-left: 45px;
+}
+
+.sec_partners {
+  border-bottom: 1px solid #313136;
+  margin-bottom: 60px;
+}
+
+.sec_partners_inner {
+  padding-bottom: 60px;
+}
+.sec_partners_inner h2 {
+  margin-bottom: 15px;
+}
+.sec_partners_inner .sub_btn {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+}
+.sec_partners_inner .sub_btn img {
+  width: 12px;
+  height: 12px;
+}
+
+.partners_table_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partners_table_wrap .table_cell_partners {
+  width: 20%;
+  border: 1px solid #313136;
+}
+.partners_table_wrap .table_cell_partners img {
+  margin-top: 20px;
+  width: 100%;
+}
+.partners_table_wrap .table_cell_partners span {
+  display: block;
+  padding: 44px 28px 22px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.5);
+}
