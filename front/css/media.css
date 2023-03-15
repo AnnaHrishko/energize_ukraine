@@ -1,3 +1,38 @@
+@media screen and (max-width: 1400px) {
+  .how_it_work_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 122px;
+  }
+  .how_it_work_wrapper .how_it_work_col3:after {
+    bottom: -50px;
+    top: unset;
+    right: 90px;
+    transform: rotate(90deg);
+  }
+  .how_it_work_wrapper .how_it_work_col4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .how_it_work_wrapper .how_it_work_col4:after {
+    right: unset;
+    left: -90px;
+    transform: rotate(180deg);
+  }
+  .how_it_work_wrapper .how_it_work_col5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .how_it_work_wrapper .how_it_work_col5:after {
+    right: unset;
+    left: -90px;
+    transform: rotate(180deg);
+  }
+}
 @media screen and (max-width: 1250px) {
   .main_scrn {
     width: 80%;
@@ -116,6 +151,68 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .how_it_work_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: unset;
+    grid-column-gap: 60px;
+    grid-row-gap: 40px;
+  }
+  .how_it_work_wrapper .how_it_work_col:after {
+    right: -65px;
+  }
+  .how_it_work_wrapper .how_it_work_col .icon_col {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .how_it_work_wrapper .how_it_work_col .icon_col:before {
+    filter: blur(50px);
+    transform: translateX(-10%);
+    width: 100px;
+    height: 100px;
+  }
+  .how_it_work_wrapper .how_it_work_col .heading_col {
+    font-size: 15px;
+  }
+  .how_it_work_wrapper .how_it_work_col2:after {
+    left: -78px;
+    bottom: -10px;
+    top: unset;
+    transform: scale(-1, 1) rotate(30deg);
+  }
+  .how_it_work_wrapper .how_it_work_col3:after {
+    top: unset;
+    bottom: 60px;
+    transform: scale(-1, 1) rotate(180deg);
+  }
+  .how_it_work_wrapper .how_it_work_col4 {
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: unset;
+    grid-row-end: unset;
+  }
+  .how_it_work_wrapper .how_it_work_col4:after {
+    bottom: -10px;
+    top: unset;
+    right: unset;
+    left: -65px;
+    transform: scale(-1, 1) rotate(30deg);
+  }
+  .how_it_work_wrapper .how_it_work_col5 {
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: unset;
+    grid-row-end: unset;
+  }
+  .how_it_work_wrapper .how_it_work_col5:after {
+    bottom: 0;
+    right: -85px;
+    left: unset;
+    top: unset;
+    transform: scale(-1, 1) rotate(180deg);
+  }
   .partners_table_wrap {
     margin-bottom: 30px;
   }
